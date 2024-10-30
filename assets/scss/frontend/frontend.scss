@@ -1,0 +1,33 @@
+.cd-header-banner {
+	padding: 15px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+
+	&-link {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	&-close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 15px;
+		z-index: 2;
+		cursor: pointer;
+		line-height: 1;
+	}
+
+	&-text {
+		font-size: 16px;
+		line-height: 1.5;
+		width: 100%;
+	}
+}
